@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	color: white;
+	font-family: "Corbel Light", Corbel, sans-serif;
+	font-size: 20px;
+	background: url("pic/back5.jpeg") no-repeat center / cover fixed;
+}
+header{
+	background: hsl(224, 66%, 6%);
+	width: 100%;
+}
+h1{
+	text-shadow: 3px 3px 5px blue;
+	font-weight: 500;
+}
+.game{ color: white; font-size: smaller; }
+.verse{ color: skyblue; }
+
+nav{
+	background: #1C2541;
+	width: 100%;
+	padding: 5px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.div{
+	display: flex;
+	padding: 20px;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	gap: 60px;
+}
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+img{
+	width: 350px;
+	height: 250px;
+}
+.section{
+	border: solid black;
+	box-shadow: 3px 6px 25px gray;
+	transition: 0.5s;
+	width: 100%;
+	max-width: 550px;
+	min-height: 400px;
+}
+.section:hover{
+	box-shadow: 3px 6px 25px black;
+	transform: scale(1.05);
+	cursor: pointer;
+	background-color: black;
+}
+footer{
+	background: #050A18;
+	width: 100%;
+	padding: 10px;
+}
